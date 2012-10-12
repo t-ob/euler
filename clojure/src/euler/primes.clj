@@ -27,3 +27,10 @@
        (map #(Math/floor (/ n %)))
        (take-while #(not (zero? %)))
        (apply +)))
+
+(defn factorise [n])
+
+(->> 123
+     (map))
+
+(defn legendre-symbol [a p])

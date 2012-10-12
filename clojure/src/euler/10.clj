@@ -8,3 +8,6 @@
        (take-while #(< % n))
        (apply +)))
 
+;; (sum-primes 2000000)
+;; 142913828922
+

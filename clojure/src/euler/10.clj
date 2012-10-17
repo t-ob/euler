@@ -1,5 +1,5 @@
 (ns euler.10
-  (:require [euler.primes :refer (sieve)]))
+  (:require [euler.nt.primes :refer (sieve)]))
 
 (def primes (sieve))
 
